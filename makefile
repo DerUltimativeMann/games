@@ -9,7 +9,7 @@ LF = -lmingw32 -lSDL2main -lSDL2
 CF = -Wall -pedantic -ansi
 
 # obj-files
-OBJ = main.o
+OBJ = main.o map.o
 
 # Binding the Program
 $(PROG): $(OBJ)
