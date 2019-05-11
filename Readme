@@ -1,5 +1,14 @@
-Index:    0
-Task:     Initialize a SDL based GUI
-Comment:  --
-Done:     11.05.2019
+Index       0
+Task        Initialize a SDL based GUI
+Comment     --
+Done        11.05.2019
 
+Index       1
+Task        Create a Map
+Comment     Done, very basic class
+Done        11.05.2019
+
+Index       2
+Task        ...
+Comment
+Done
