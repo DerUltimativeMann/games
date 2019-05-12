@@ -48,7 +48,7 @@ void Map::render(SDL_Renderer *renderer) {
 
 
     for(y=0; y < MAP_HEIGHT; y++) {
-        for(x=0; x < MAP_WIDTH; x++)
+        for(x=0; x < MAP_WIDTH; x++) {
             if(Map::tiles[x][y].type != TYLETYPE_EMPTY) {
                 switch(Map::tiles[x][y].type) {
                     case TYLETYPE_GRASS:
