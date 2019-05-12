@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
     window = SDL_CreateWindow("GameEmulator v0.0", 50, 50, 640, 480, SDL_WINDOW_MOUSE_FOCUS | SDL_WINDOW_SHOWN);
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    karte = new Map(renderer, "assets/tiles/sr_tiles.bmp");
+    karte = new Map(renderer, "assets/tiles/tile_grass.bmp");
 
     while(running) {
 
